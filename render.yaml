@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: lifeos
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DB_ENCRYPTION_KEY
+        generateValue: true
+      - key: QUMS_BASE_URL
+        value: https://qums.quantumuniversity.edu.in
+      - key: QUMS_YEAR_SEM
+        value: "5"
+      - key: ADMIN_USERNAME
+        value: admin
+      - key: ADMIN_PASSWORD
+        generateValue: true
