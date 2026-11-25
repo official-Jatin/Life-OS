@@ -1,5 +1,5 @@
 # LifeOS — Personal Productivity & QUMS Attendance Dashboard (my college)
-
+ live demo - https://life-os-rc57.onrender.com/ 
 LifeOS is a minimal, dark-themed personal productivity web application built with HTML, CSS, Vanilla JavaScript, Chart.js, Lucide Icons, and a Node.js + Express backend for QUMS ERP attendance integration.
 
 ## Project Structure
